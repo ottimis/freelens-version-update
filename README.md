@@ -1,6 +1,6 @@
-# Lens "Deployment Image Update" Extension
+# FreeLens "Deployment Image Update" Extension
 
-Lens extension to simplify update of deployment image tag (containers & initContainers):
+FreeLens extension to simplify update of deployment image tag (containers & initContainers):
 
 * Just open deployment details and save new image tag.
 
@@ -47,4 +47,4 @@ npm start
 rm ~/.k8slens/extensions/freelens-version-update
 ```
 
-Restart Lens application.
+Restart FreeLens application.
