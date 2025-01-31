@@ -11,7 +11,7 @@ Lens extension to simplify update of deployment image tag (containers & initCont
 Installation is easy, you just need to follow these steps:
 
 1. Go to the Extensions view (`CMD+SHIFT+E` on macOS).
-2. Enter the name of this extension, `@ottimis/lens-version-update`, into the Install Extension box.
+2. Enter the name of this extension, `@ottimis/freelens-version-update`, into the Install Extension box.
 3. Click on the Install button.
 
 ![Extension UI](./imgs/install.png)
@@ -20,8 +20,8 @@ Installation is easy, you just need to follow these steps:
 
 ```sh
 mkdir -p ~/.k8slens/extensions
-git clone https://github.com/ottimis/lens-version-update.git
-ln -s $(pwd)/lens-version-update ~/.k8slens/extensions/lens-version-update
+git clone https://github.com/ottimis/freelens-version-update.git
+ln -s $(pwd)/freelens-version-update ~/.k8slens/extensions/freelens-version-update
 ```
 
 ## Build
@@ -29,7 +29,7 @@ ln -s $(pwd)/lens-version-update ~/.k8slens/extensions/lens-version-update
 To build the extension you can run the `npm` commands manually:
 
 ```sh
-cd lens-version-update
+cd freelens-version-update
 npm install
 npm run build
 ```
@@ -37,14 +37,14 @@ npm run build
 If you want to watch for any source code changes and automatically rebuild the extension you can use:
 
 ```sh
-cd lens-version-update
+cd freelens-version-update
 npm start
 ```
 
 ## Uninstall
 
 ```sh
-rm ~/.k8slens/extensions/lens-version-update
+rm ~/.k8slens/extensions/freelens-version-update
 ```
 
 Restart Lens application.

@@ -1,5 +1,14 @@
 # ChangeLog
 
+## v0.1.0
+
+- Renamed package in favor of new freelens project.
+- Adapted package to new freelens API.
+- Switched to pnpm.
+
+---
+# OLD Changelog relative to @ottimis/lens-version-update (now abbandoned)
+
 ## v1.2.1
 
 - Removed incorrect information.

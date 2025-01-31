@@ -1,4 +1,4 @@
-import { Renderer } from "@k8slens/extensions";
+import { Renderer } from "@freelensapp/extensions";
 import { DeploymentVersionUpdate } from "./src/deployment-version-update"
 import { StatefulSetVersionUpdate } from "./src/statefulset-version-update"
 import { CronJobVersionUpdate } from "./src/cronjob-version-update"

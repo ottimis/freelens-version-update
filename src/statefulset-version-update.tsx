@@ -1,6 +1,6 @@
 import "./statefulset-version-update.scss";
 
-import { Renderer } from "@k8slens/extensions";
+import { Renderer } from "@freelensapp/extensions";
 import React from "react";
 import { observable, makeObservable, autorun } from "mobx";
 import { disposeOnUnmount, observer } from "mobx-react";

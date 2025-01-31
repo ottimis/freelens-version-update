@@ -1,6 +1,6 @@
 import "./cronjob-version-update.scss";
 
-import { Renderer } from "@k8slens/extensions";
+import { Renderer } from "@freelensapp/extensions";
 import React from "react";
 import { observable, makeObservable, autorun } from "mobx";
 import { disposeOnUnmount, observer } from "mobx-react";
@@ -58,7 +58,7 @@ export class CronJobVersionUpdate extends React.Component<Renderer.Component.Kub
 
     try {
       this.isSaving = true;
-      await Renderer.K8sApi.deploymentApi.update({
+      await Renderer.K8sApi.cronJobApi.update({
         namespace: object.getNs(),
         name: object.getName(),
       }, object);
