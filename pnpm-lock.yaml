@@ -9,14 +9,14 @@ importers:
   .:
     devDependencies:
       '@freelensapp/extensions':
-        specifier: ^0.1.0
-        version: 0.1.3(ngeo4lucg6yfsvikw542ulaifm)
+        specifier: ^1.0.0
+        version: 1.0.0(c179dbac5c93c3e1d8369eba1b3d3d1e)
       '@types/node':
         specifier: 18.19.74
         version: 18.19.74
       '@types/react':
-        specifier: 17.0.59
-        version: 17.0.59
+        specifier: 19.0.9
+        version: 19.0.9
       '@typescript-eslint/eslint-plugin':
         specifier: ^6.0.0
         version: 6.21.0(@typescript-eslint/parser@6.21.0(eslint@8.57.1)(typescript@4.9.5))(eslint@8.57.1)(typescript@4.9.5)
@@ -28,7 +28,7 @@ importers:
         version: 3.6.0
       css-loader:
         specifier: ^7.1.2
-        version: 7.1.2(webpack@5.97.1(webpack-cli@5.1.4))
+        version: 7.1.2(webpack@5.97.1)
       eslint:
         specifier: ^8.31.0
         version: 8.57.1
@@ -46,13 +46,13 @@ importers:
         version: 1.83.4
       sass-loader:
         specifier: ^16.0.4
-        version: 16.0.4(sass@1.83.4)(webpack@5.97.1(webpack-cli@5.1.4))
+        version: 16.0.4(sass@1.83.4)(webpack@5.97.1)
       style-loader:
         specifier: ^4.0.0
-        version: 4.0.0(webpack@5.97.1(webpack-cli@5.1.4))
+        version: 4.0.0(webpack@5.97.1)
       ts-loader:
         specifier: ^9.5.2
-        version: 9.5.2(typescript@4.9.5)(webpack@5.97.1(webpack-cli@5.1.4))
+        version: 9.5.2(typescript@4.9.5)(webpack@5.97.1)
       type-fest:
         specifier: ^2.19.0
         version: 2.19.0
@@ -255,44 +255,44 @@ packages:
       mobx: ^6.9.0
       react: ^17.0.2
 
-  '@freelensapp/core@0.1.3':
-    resolution: {integrity: sha512-GHZI8HTllVVkNQrPj2ftAvSBXGYQWiiIAjYwZL1Y6gr0D6nXSVwn0zSwxQ82Gy3vBZsnLSdxBAdFIglt+MpAyg==}
+  '@freelensapp/core@1.0.0':
+    resolution: {integrity: sha512-Xpgx3YdjtHtGwDxeWdVpvT1UQeR5Qjaogwu3Y6kFsOoPzKLEwJM8fVx5zkWfszqqfY6YUSSJmeoEDoy3oxtM+Q==}
     engines: {node: '>=16 <=18'}
     peerDependencies:
-      '@freelensapp/animate': ^0.1.0
-      '@freelensapp/application': ^0.1.0
-      '@freelensapp/application-for-electron-main': ^0.1.0
-      '@freelensapp/button': ^0.1.0
-      '@freelensapp/cluster-settings': ^0.1.0
-      '@freelensapp/cluster-sidebar': ^0.1.0
-      '@freelensapp/error-boundary': ^0.1.0
-      '@freelensapp/event-emitter': ^0.1.0
-      '@freelensapp/icon': ^0.1.0
-      '@freelensapp/kube-api': ^0.1.0
-      '@freelensapp/kube-api-specifics': ^0.1.0
-      '@freelensapp/kube-object': ^0.1.0
-      '@freelensapp/kubectl-versions': ^0.1.0
-      '@freelensapp/legacy-extensions': ^0.1.0
-      '@freelensapp/legacy-global-di': ^0.1.0
-      '@freelensapp/list-layout': ^0.1.0
-      '@freelensapp/logger': ^0.1.0
-      '@freelensapp/messaging': ^0.1.0
-      '@freelensapp/messaging-for-main': ^0.1.0
-      '@freelensapp/messaging-for-renderer': ^0.1.0
-      '@freelensapp/metrics': ^0.1.0
-      '@freelensapp/node-fetch': ^0.1.0
-      '@freelensapp/notifications': ^0.1.0
-      '@freelensapp/prometheus': ^0.1.0
-      '@freelensapp/random': ^0.1.0
-      '@freelensapp/react-application': ^0.1.0
-      '@freelensapp/resizing-anchor': ^0.1.0
-      '@freelensapp/resource-templates': ^0.1.0
-      '@freelensapp/routing': ^0.1.0
-      '@freelensapp/run-many': ^0.1.0
-      '@freelensapp/spinner': ^0.1.0
-      '@freelensapp/startable-stoppable': ^0.1.0
-      '@freelensapp/tooltip': ^0.1.0
-      '@freelensapp/utilities': ^0.1.0
+      '@freelensapp/animate': ^1.0.0
+      '@freelensapp/application': ^1.0.0
+      '@freelensapp/application-for-electron-main': ^1.0.0
+      '@freelensapp/button': ^1.0.0
+      '@freelensapp/cluster-settings': ^1.0.0
+      '@freelensapp/cluster-sidebar': ^1.0.0
+      '@freelensapp/error-boundary': ^1.0.0
+      '@freelensapp/event-emitter': ^1.0.0
+      '@freelensapp/icon': ^1.0.0
+      '@freelensapp/kube-api': ^1.0.0
+      '@freelensapp/kube-api-specifics': ^1.0.0
+      '@freelensapp/kube-object': ^1.0.0
+      '@freelensapp/kubectl-versions': ^1.0.0
+      '@freelensapp/legacy-extensions': ^1.0.0
+      '@freelensapp/legacy-global-di': ^1.0.0
+      '@freelensapp/list-layout': ^1.0.0
+      '@freelensapp/logger': ^1.0.0
+      '@freelensapp/messaging': ^1.0.0
+      '@freelensapp/messaging-for-main': ^1.0.0
+      '@freelensapp/messaging-for-renderer': ^1.0.0
+      '@freelensapp/metrics': ^1.0.0
+      '@freelensapp/node-fetch': ^1.0.0
+      '@freelensapp/notifications': ^1.0.0
+      '@freelensapp/prometheus': ^1.0.0
+      '@freelensapp/random': ^1.0.0
+      '@freelensapp/react-application': ^1.0.0
+      '@freelensapp/resizing-anchor': ^1.0.0
+      '@freelensapp/resource-templates': ^1.0.0
+      '@freelensapp/routing': ^1.0.0
+      '@freelensapp/run-many': ^1.0.0
+      '@freelensapp/spinner': ^1.0.0
+      '@freelensapp/startable-stoppable': ^1.0.0
+      '@freelensapp/tooltip': ^1.0.0
+      '@freelensapp/utilities': ^1.0.0
       '@hapi/call': ^9.0.1
       '@hapi/subtext': ^7.1.0
       '@kubernetes/client-node': ^0.18.1
@@ -396,8 +396,8 @@ packages:
   '@freelensapp/event-emitter@0.1.3':
     resolution: {integrity: sha512-lbIkmjMfThZ1sYDeB18bI4YWwhtDxrSoFS3DUQfVT35HYZ3sLRVbauCPJS8YAh8mV9Jni3nfDXezBeLeO0DnSA==}
 
-  '@freelensapp/extensions@0.1.3':
-    resolution: {integrity: sha512-TAG+z80jBwubU8OeV7zfzrEzhy4tZWYZ4N21TiSBhT4hfP4UVECrF6b2ugPFsr86v5PhbERIOUZQzXRKg9L5HA==}
+  '@freelensapp/extensions@1.0.0':
+    resolution: {integrity: sha512-tk9XZWrliKBeJjACPrZTXLDQFIhcomwYESnbxrHx1QS+316zncEd+NSDwpYR76lQlc5fVXA6BrhmfnlLZExbNQ==}
 
   '@freelensapp/feature-core@0.1.3':
     resolution: {integrity: sha512-RiTcy4mwygkiFHJRmMib7JDQe4kP75puUuvRc9wBSHwO3FpAXsnozXKs7bqrpbY96J3SyOLU3QiC3NdgKff2Dw==}
@@ -1144,8 +1144,8 @@ packages:
   '@types/react@16.14.62':
     resolution: {integrity: sha512-BWf7hqninZav6nerxXj+NeZT/mTpDeG6Lk2zREHAy63CrnXoOGPGtNqTFYFN/sqpSaREDP5otVV88axIXmKfGA==}
 
-  '@types/react@17.0.59':
-    resolution: {integrity: sha512-gSON5zWYIGyoBcycCE75E9+r6dCC2dHdsrVkOEiIYNU5+Q28HcBAuqvDuxHcCbMfHBHdeT5Tva/AFn3rnMKE4g==}
+  '@types/react@19.0.9':
+    resolution: {integrity: sha512-FedNTYgmMwSZmD1Sru/W1gJKuiYCN/3SuBkmZkcxX+FpO5zL76B22A9YNfAKg4HQO3Neh/30AiynP6BELdU0qQ==}
 
   '@types/request@2.48.12':
     resolution: {integrity: sha512-G3sY+NpsA9jnwm0ixhAFQSJ3Q9JkpLZpJbI3GMv0mIAT0y3mRabYeINzal5WOChIiaTEGQYlHOKgkaM9EisWHw==}
@@ -1155,9 +1155,6 @@ packages:
 
   '@types/scheduler@0.16.8':
     resolution: {integrity: sha512-WZLiwShhwLRmeV6zH+GkbOFT6Z6VklCItrDioxUnv+u4Ll+8vKeFySoFyK/0ctcRpOmwAicELfmys1sDc/Rw+A==}
-
-  '@types/scheduler@0.23.0':
-    resolution: {integrity: sha512-YIoDCTH3Af6XM5VuwGG/QL/CJqga1Zm3NkU3HZ4ZHK2fRMPYP1VczsTUqtsf43PH/iJNVlPHAo2oWX7BSdB2Hw==}
 
   '@types/semver@7.5.8':
     resolution: {integrity: sha512-I8EUhyrgfLrcTkzV3TSsGyl1tSuPrEDzr0yd5m90UgNxQkyDXULk3b6MlQqTCpZpNtWe1K0hzclnZkTcLBe2UQ==}
@@ -3915,7 +3912,7 @@ snapshots:
 
   '@emotion/memoize@0.9.0': {}
 
-  '@emotion/react@11.14.0(@types/react@17.0.59)(react@17.0.2)':
+  '@emotion/react@11.14.0(@types/react@19.0.9)(react@17.0.2)':
     dependencies:
       '@babel/runtime': 7.26.7
       '@emotion/babel-plugin': 11.13.5
@@ -3927,7 +3924,7 @@ snapshots:
       hoist-non-react-statics: 3.3.2
       react: 17.0.2
     optionalDependencies:
-      '@types/react': 17.0.59
+      '@types/react': 19.0.9
     transitivePeerDependencies:
       - supports-color
 
@@ -3985,7 +3982,7 @@ snapshots:
 
   '@floating-ui/utils@0.2.9': {}
 
-  '@freelensapp/animate@0.1.3(5rngbaegkj263qz3byanmzdyfy)':
+  '@freelensapp/animate@0.1.3(251d1e76352ddc5f3e246ac610d90f41)':
     dependencies:
       '@freelensapp/feature-core': 0.1.3(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))
       '@freelensapp/utilities': 0.1.3(@astronautlabs/jsonpath@1.1.2)(crypto-js@4.2.0)(lodash@4.17.21)(mobx@6.13.6)(moment@2.30.1)(p-limit@3.1.0)(path-to-regexp@6.3.0)(react-router@5.3.4(react@17.0.2))(react@17.0.2)(readable-stream@3.6.2)(semver@7.7.0)(tar@6.2.1)(type-fest@2.19.0)(typed-regex@0.0.8)
@@ -3994,21 +3991,21 @@ snapshots:
       '@ogre-tools/injectable-react': 17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21)(mobx-react@7.6.0(mobx@6.13.6)(react-dom@17.0.2(react@17.0.2))(react@17.0.2))(mobx@6.13.6)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
       react: 17.0.2
 
-  '@freelensapp/application-for-electron-main@0.1.3(@freelensapp/application@0.1.3(lntcnqtk6twfwxnfs66m2d6ex4))(@freelensapp/feature-core@0.1.3(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21)))(@freelensapp/run-many@0.1.3(csrgg7n64lwm7fdizfmz7fbhga))(@ogre-tools/injectable-extension-for-auto-registration@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(electron@22.3.27)(lodash@4.17.21)':
+  '@freelensapp/application-for-electron-main@0.1.3(@freelensapp/application@0.1.3(c347a016880c87c63c0dd8f38fe4f2d0))(@freelensapp/feature-core@0.1.3(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21)))(@freelensapp/run-many@0.1.3(e8c8ef5d2081d6ae9d3e15cab27cdcb5))(@ogre-tools/injectable-extension-for-auto-registration@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(electron@22.3.27)(lodash@4.17.21)':
     dependencies:
-      '@freelensapp/application': 0.1.3(lntcnqtk6twfwxnfs66m2d6ex4)
+      '@freelensapp/application': 0.1.3(c347a016880c87c63c0dd8f38fe4f2d0)
       '@freelensapp/feature-core': 0.1.3(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))
-      '@freelensapp/run-many': 0.1.3(csrgg7n64lwm7fdizfmz7fbhga)
+      '@freelensapp/run-many': 0.1.3(e8c8ef5d2081d6ae9d3e15cab27cdcb5)
       '@ogre-tools/injectable': 17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21)
       '@ogre-tools/injectable-extension-for-auto-registration': 17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21)
       electron: 22.3.27
       lodash: 4.17.21
 
-  '@freelensapp/application@0.1.3(lntcnqtk6twfwxnfs66m2d6ex4)':
+  '@freelensapp/application@0.1.3(c347a016880c87c63c0dd8f38fe4f2d0)':
     dependencies:
       '@freelensapp/feature-core': 0.1.3(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))
       '@freelensapp/logger': 0.1.3(@freelensapp/feature-core@0.1.3(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21)))(@ogre-tools/fp@17.11.1(lodash@4.17.21))(@ogre-tools/injectable-extension-for-auto-registration@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21)(winston@3.17.0)
-      '@freelensapp/run-many': 0.1.3(csrgg7n64lwm7fdizfmz7fbhga)
+      '@freelensapp/run-many': 0.1.3(e8c8ef5d2081d6ae9d3e15cab27cdcb5)
       '@ogre-tools/fp': 17.11.1(lodash@4.17.21)
       '@ogre-tools/injectable': 17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21)
       '@ogre-tools/injectable-extension-for-auto-registration': 17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21)
@@ -4039,38 +4036,38 @@ snapshots:
       mobx: 6.13.6
       react: 17.0.2
 
-  '@freelensapp/core@0.1.3(ngeo4lucg6yfsvikw542ulaifm)':
+  '@freelensapp/core@1.0.0(c179dbac5c93c3e1d8369eba1b3d3d1e)':
     dependencies:
-      '@freelensapp/animate': 0.1.3(5rngbaegkj263qz3byanmzdyfy)
-      '@freelensapp/application': 0.1.3(lntcnqtk6twfwxnfs66m2d6ex4)
-      '@freelensapp/application-for-electron-main': 0.1.3(@freelensapp/application@0.1.3(lntcnqtk6twfwxnfs66m2d6ex4))(@freelensapp/feature-core@0.1.3(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21)))(@freelensapp/run-many@0.1.3(csrgg7n64lwm7fdizfmz7fbhga))(@ogre-tools/injectable-extension-for-auto-registration@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(electron@22.3.27)(lodash@4.17.21)
+      '@freelensapp/animate': 0.1.3(251d1e76352ddc5f3e246ac610d90f41)
+      '@freelensapp/application': 0.1.3(c347a016880c87c63c0dd8f38fe4f2d0)
+      '@freelensapp/application-for-electron-main': 0.1.3(@freelensapp/application@0.1.3(c347a016880c87c63c0dd8f38fe4f2d0))(@freelensapp/feature-core@0.1.3(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21)))(@freelensapp/run-many@0.1.3(e8c8ef5d2081d6ae9d3e15cab27cdcb5))(@ogre-tools/injectable-extension-for-auto-registration@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(electron@22.3.27)(lodash@4.17.21)
       '@freelensapp/button': 0.1.3(@freelensapp/tooltip@0.1.3(@freelensapp/utilities@0.1.3(@astronautlabs/jsonpath@1.1.2)(crypto-js@4.2.0)(lodash@4.17.21)(mobx@6.13.6)(moment@2.30.1)(p-limit@3.1.0)(path-to-regexp@6.3.0)(react-router@5.3.4(react@17.0.2))(react@17.0.2)(readable-stream@3.6.2)(semver@7.7.0)(tar@6.2.1)(type-fest@2.19.0)(typed-regex@0.0.8))(auto-bind@4.0.0)(lodash@4.17.21)(mobx-react@7.6.0(mobx@6.13.6)(react-dom@17.0.2(react@17.0.2))(react@17.0.2))(mobx@6.13.6)(react-dom@17.0.2(react@17.0.2))(react@17.0.2))(@freelensapp/utilities@0.1.3(@astronautlabs/jsonpath@1.1.2)(crypto-js@4.2.0)(lodash@4.17.21)(mobx@6.13.6)(moment@2.30.1)(p-limit@3.1.0)(path-to-regexp@6.3.0)(react-router@5.3.4(react@17.0.2))(react@17.0.2)(readable-stream@3.6.2)(semver@7.7.0)(tar@6.2.1)(type-fest@2.19.0)(typed-regex@0.0.8))(auto-bind@4.0.0)(lodash@4.17.21)(mobx-react@7.6.0(mobx@6.13.6)(react-dom@17.0.2(react@17.0.2))(react@17.0.2))(mobx@6.13.6)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
       '@freelensapp/cluster-settings': 0.1.3(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))
       '@freelensapp/cluster-sidebar': 0.1.3(@freelensapp/feature-core@0.1.3(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21)))(@freelensapp/utilities@0.1.3(@astronautlabs/jsonpath@1.1.2)(crypto-js@4.2.0)(lodash@4.17.21)(mobx@6.13.6)(moment@2.30.1)(p-limit@3.1.0)(path-to-regexp@6.3.0)(react-router@5.3.4(react@17.0.2))(react@17.0.2)(readable-stream@3.6.2)(semver@7.7.0)(tar@6.2.1)(type-fest@2.19.0)(typed-regex@0.0.8))(@ogre-tools/injectable-extension-for-auto-registration@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21))(@ogre-tools/injectable-extension-for-mobx@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21)(mobx@6.13.6))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(mobx@6.13.6)(react@17.0.2)
-      '@freelensapp/error-boundary': 0.1.3(exgej6tjm464s56hgku3usagxa)
+      '@freelensapp/error-boundary': 0.1.3(21c3b98215e9d19e7302362895f78dca)
       '@freelensapp/event-emitter': 0.1.3
-      '@freelensapp/icon': 0.1.3(ixwan6shd7ji3bftwvyo7edkky)
-      '@freelensapp/kube-api': 0.1.3(jxipa4jgszlozet6svscx4h5la)
-      '@freelensapp/kube-api-specifics': 0.1.3(@freelensapp/feature-core@0.1.3(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21)))(@freelensapp/kube-api@0.1.3(jxipa4jgszlozet6svscx4h5la))(@freelensapp/logger@0.1.3(@freelensapp/feature-core@0.1.3(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21)))(@ogre-tools/fp@17.11.1(lodash@4.17.21))(@ogre-tools/injectable-extension-for-auto-registration@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21)(winston@3.17.0))(@ogre-tools/injectable-extension-for-auto-registration@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))
+      '@freelensapp/icon': 0.1.3(fdb67a47dab67e2795e808d3a1f5ab98)
+      '@freelensapp/kube-api': 0.1.3(42b601b985c3277f2f16c4919da30053)
+      '@freelensapp/kube-api-specifics': 0.1.3(@freelensapp/feature-core@0.1.3(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21)))(@freelensapp/kube-api@0.1.3(42b601b985c3277f2f16c4919da30053))(@freelensapp/logger@0.1.3(@freelensapp/feature-core@0.1.3(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21)))(@ogre-tools/fp@17.11.1(lodash@4.17.21))(@ogre-tools/injectable-extension-for-auto-registration@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21)(winston@3.17.0))(@ogre-tools/injectable-extension-for-auto-registration@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))
       '@freelensapp/kube-object': 0.1.3(@freelensapp/utilities@0.1.3(@astronautlabs/jsonpath@1.1.2)(crypto-js@4.2.0)(lodash@4.17.21)(mobx@6.13.6)(moment@2.30.1)(p-limit@3.1.0)(path-to-regexp@6.3.0)(react-router@5.3.4(react@17.0.2))(react@17.0.2)(readable-stream@3.6.2)(semver@7.7.0)(tar@6.2.1)(type-fest@2.19.0)(typed-regex@0.0.8))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(auto-bind@4.0.0)(moment@2.30.1)(rfc6902@5.1.2)(type-fest@2.19.0)(typed-regex@0.0.8)
       '@freelensapp/kubectl-versions': 0.1.3(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))
       '@freelensapp/legacy-extensions': 0.1.3(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))
       '@freelensapp/legacy-global-di': 0.1.3(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))
       '@freelensapp/list-layout': 0.1.3(@freelensapp/kube-object@0.1.3(@freelensapp/utilities@0.1.3(@astronautlabs/jsonpath@1.1.2)(crypto-js@4.2.0)(lodash@4.17.21)(mobx@6.13.6)(moment@2.30.1)(p-limit@3.1.0)(path-to-regexp@6.3.0)(react-router@5.3.4(react@17.0.2))(react@17.0.2)(readable-stream@3.6.2)(semver@7.7.0)(tar@6.2.1)(type-fest@2.19.0)(typed-regex@0.0.8))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(auto-bind@4.0.0)(moment@2.30.1)(rfc6902@5.1.2)(type-fest@2.19.0)(typed-regex@0.0.8))(@freelensapp/utilities@0.1.3(@astronautlabs/jsonpath@1.1.2)(crypto-js@4.2.0)(lodash@4.17.21)(mobx@6.13.6)(moment@2.30.1)(p-limit@3.1.0)(path-to-regexp@6.3.0)(react-router@5.3.4(react@17.0.2))(react@17.0.2)(readable-stream@3.6.2)(semver@7.7.0)(tar@6.2.1)(type-fest@2.19.0)(typed-regex@0.0.8))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(react@17.0.2)
       '@freelensapp/logger': 0.1.3(@freelensapp/feature-core@0.1.3(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21)))(@ogre-tools/fp@17.11.1(lodash@4.17.21))(@ogre-tools/injectable-extension-for-auto-registration@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21)(winston@3.17.0)
-      '@freelensapp/messaging': 0.1.3(@freelensapp/application@0.1.3(lntcnqtk6twfwxnfs66m2d6ex4))(@freelensapp/feature-core@0.1.3(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21)))(@freelensapp/startable-stoppable@0.1.3)(@ogre-tools/injectable-extension-for-auto-registration@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21))(@ogre-tools/injectable-extension-for-mobx@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21)(mobx@6.13.6))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21)(mobx@6.13.6)
-      '@freelensapp/messaging-for-main': 0.1.3(57mxdhhgyu3zl27trrouzqs3q4)
-      '@freelensapp/messaging-for-renderer': 0.1.3(e7nstvh77yuk7bsw7n244pyqwu)
+      '@freelensapp/messaging': 0.1.3(@freelensapp/application@0.1.3(c347a016880c87c63c0dd8f38fe4f2d0))(@freelensapp/feature-core@0.1.3(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21)))(@freelensapp/startable-stoppable@0.1.3)(@ogre-tools/injectable-extension-for-auto-registration@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21))(@ogre-tools/injectable-extension-for-mobx@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21)(mobx@6.13.6))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21)(mobx@6.13.6)
+      '@freelensapp/messaging-for-main': 0.1.3(809ce80485667a3845b42371265d3533)
+      '@freelensapp/messaging-for-renderer': 0.1.3(0c743307af28ee5461fd016bde67bd83)
       '@freelensapp/metrics': 0.1.3(@freelensapp/kube-object@0.1.3(@freelensapp/utilities@0.1.3(@astronautlabs/jsonpath@1.1.2)(crypto-js@4.2.0)(lodash@4.17.21)(mobx@6.13.6)(moment@2.30.1)(p-limit@3.1.0)(path-to-regexp@6.3.0)(react-router@5.3.4(react@17.0.2))(react@17.0.2)(readable-stream@3.6.2)(semver@7.7.0)(tar@6.2.1)(type-fest@2.19.0)(typed-regex@0.0.8))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(auto-bind@4.0.0)(moment@2.30.1)(rfc6902@5.1.2)(type-fest@2.19.0)(typed-regex@0.0.8))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(react@17.0.2)
       '@freelensapp/node-fetch': 0.1.3
-      '@freelensapp/notifications': 0.1.3(edyand52qd2yvxty6f5p23muaq)
-      '@freelensapp/prometheus': 0.1.3(lnpl4n4tyzwgwf7ir37gdwjzju)
+      '@freelensapp/notifications': 0.1.3(22798175a93907efab1d943850b39e44)
+      '@freelensapp/prometheus': 0.1.3(e1c8ef47544948a0872303dbbe190d9a)
       '@freelensapp/random': 0.1.3(@freelensapp/feature-core@0.1.3(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21)))(@ogre-tools/injectable-extension-for-auto-registration@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(uuid@8.3.2)
-      '@freelensapp/react-application': 0.1.3(o2xlirbjlcaw3ekurdapjxtlre)
+      '@freelensapp/react-application': 0.1.3(6afefa47641c98b110f27cd65f3a90cd)
       '@freelensapp/resizing-anchor': 0.1.3(@freelensapp/feature-core@0.1.3(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21)))(@freelensapp/utilities@0.1.3(@astronautlabs/jsonpath@1.1.2)(crypto-js@4.2.0)(lodash@4.17.21)(mobx@6.13.6)(moment@2.30.1)(p-limit@3.1.0)(path-to-regexp@6.3.0)(react-router@5.3.4(react@17.0.2))(react@17.0.2)(readable-stream@3.6.2)(semver@7.7.0)(tar@6.2.1)(type-fest@2.19.0)(typed-regex@0.0.8))(@ogre-tools/fp@17.11.1(lodash@4.17.21))(@ogre-tools/injectable-extension-for-auto-registration@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(auto-bind@4.0.0)(lodash@4.17.21)(mobx-react@7.6.0(mobx@6.13.6)(react-dom@17.0.2(react@17.0.2))(react@17.0.2))(mobx@6.13.6)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
       '@freelensapp/resource-templates': 0.1.3
-      '@freelensapp/routing': 0.1.3(wb4naih2jht37wfq2g5r7s3rlq)
-      '@freelensapp/run-many': 0.1.3(csrgg7n64lwm7fdizfmz7fbhga)
+      '@freelensapp/routing': 0.1.3(ef7756321ae34057696932a4ffcd9d37)
+      '@freelensapp/run-many': 0.1.3(e8c8ef5d2081d6ae9d3e15cab27cdcb5)
       '@freelensapp/spinner': 0.1.3(@freelensapp/utilities@0.1.3(@astronautlabs/jsonpath@1.1.2)(crypto-js@4.2.0)(lodash@4.17.21)(mobx@6.13.6)(moment@2.30.1)(p-limit@3.1.0)(path-to-regexp@6.3.0)(react-router@5.3.4(react@17.0.2))(react@17.0.2)(readable-stream@3.6.2)(semver@7.7.0)(tar@6.2.1)(type-fest@2.19.0)(typed-regex@0.0.8))(react@17.0.2)
       '@freelensapp/startable-stoppable': 0.1.3
       '@freelensapp/tooltip': 0.1.3(@freelensapp/utilities@0.1.3(@astronautlabs/jsonpath@1.1.2)(crypto-js@4.2.0)(lodash@4.17.21)(mobx@6.13.6)(moment@2.30.1)(p-limit@3.1.0)(path-to-regexp@6.3.0)(react-router@5.3.4(react@17.0.2))(react@17.0.2)(readable-stream@3.6.2)(semver@7.7.0)(tar@6.2.1)(type-fest@2.19.0)(typed-regex@0.0.8))(auto-bind@4.0.0)(lodash@4.17.21)(mobx-react@7.6.0(mobx@6.13.6)(react-dom@17.0.2(react@17.0.2))(react@17.0.2))(mobx@6.13.6)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
@@ -4078,8 +4075,8 @@ snapshots:
       '@hapi/call': 9.0.1
       '@hapi/subtext': 7.1.0
       '@kubernetes/client-node': 0.18.1
-      '@material-ui/core': 4.12.4(@types/react@17.0.59)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
-      '@material-ui/lab': 4.0.0-alpha.61(@material-ui/core@4.12.4(@types/react@17.0.59)(react-dom@17.0.2(react@17.0.2))(react@17.0.2))(@types/react@17.0.59)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
+      '@material-ui/core': 4.12.4(@types/react@19.0.9)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
+      '@material-ui/lab': 4.0.0-alpha.61(@material-ui/core@4.12.4(@types/react@19.0.9)(react-dom@17.0.2(react@17.0.2))(react@17.0.2))(@types/react@19.0.9)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
       '@ogre-tools/fp': 17.11.1(lodash@4.17.21)
       '@ogre-tools/injectable': 17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21)
       '@ogre-tools/injectable-extension-for-auto-registration': 17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21)
@@ -4130,10 +4127,10 @@ snapshots:
       react: 17.0.2
       react-beautiful-dnd: 13.1.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
       react-dom: 17.0.2(react@17.0.2)
-      react-material-ui-carousel: 2.3.11(@material-ui/core@4.12.4(@types/react@17.0.59)(react-dom@17.0.2(react@17.0.2))(react@17.0.2))(@material-ui/icons@4.11.3(@material-ui/core@4.12.4(@types/react@17.0.59)(react-dom@17.0.2(react@17.0.2))(react@17.0.2))(@types/react@17.0.59)(react-dom@17.0.2(react@17.0.2))(react@17.0.2))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
+      react-material-ui-carousel: 2.3.11(@material-ui/core@4.12.4(@types/react@19.0.9)(react-dom@17.0.2(react@17.0.2))(react@17.0.2))(@material-ui/icons@4.11.3(@material-ui/core@4.12.4(@types/react@19.0.9)(react-dom@17.0.2(react@17.0.2))(react@17.0.2))(@types/react@19.0.9)(react-dom@17.0.2(react@17.0.2))(react@17.0.2))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
       react-router: 5.3.4(react@17.0.2)
       react-router-dom: 5.3.4(react@17.0.2)
-      react-select: 5.10.0(@types/react@17.0.59)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
+      react-select: 5.10.0(@types/react@19.0.9)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
       react-select-event: 5.5.1
       react-table: 7.8.0(react@17.0.2)
       react-virtualized-auto-sizer: 1.0.25(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
@@ -4158,10 +4155,10 @@ snapshots:
       xterm-addon-fit: 0.5.0(xterm@4.19.0)
       xterm-link-provider: 1.3.1
 
-  '@freelensapp/error-boundary@0.1.3(exgej6tjm464s56hgku3usagxa)':
+  '@freelensapp/error-boundary@0.1.3(21c3b98215e9d19e7302362895f78dca)':
     dependencies:
       '@freelensapp/button': 0.1.3(@freelensapp/tooltip@0.1.3(@freelensapp/utilities@0.1.3(@astronautlabs/jsonpath@1.1.2)(crypto-js@4.2.0)(lodash@4.17.21)(mobx@6.13.6)(moment@2.30.1)(p-limit@3.1.0)(path-to-regexp@6.3.0)(react-router@5.3.4(react@17.0.2))(react@17.0.2)(readable-stream@3.6.2)(semver@7.7.0)(tar@6.2.1)(type-fest@2.19.0)(typed-regex@0.0.8))(auto-bind@4.0.0)(lodash@4.17.21)(mobx-react@7.6.0(mobx@6.13.6)(react-dom@17.0.2(react@17.0.2))(react@17.0.2))(mobx@6.13.6)(react-dom@17.0.2(react@17.0.2))(react@17.0.2))(@freelensapp/utilities@0.1.3(@astronautlabs/jsonpath@1.1.2)(crypto-js@4.2.0)(lodash@4.17.21)(mobx@6.13.6)(moment@2.30.1)(p-limit@3.1.0)(path-to-regexp@6.3.0)(react-router@5.3.4(react@17.0.2))(react@17.0.2)(readable-stream@3.6.2)(semver@7.7.0)(tar@6.2.1)(type-fest@2.19.0)(typed-regex@0.0.8))(auto-bind@4.0.0)(lodash@4.17.21)(mobx-react@7.6.0(mobx@6.13.6)(react-dom@17.0.2(react@17.0.2))(react@17.0.2))(mobx@6.13.6)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
-      '@freelensapp/routing': 0.1.3(wb4naih2jht37wfq2g5r7s3rlq)
+      '@freelensapp/routing': 0.1.3(ef7756321ae34057696932a4ffcd9d37)
       '@freelensapp/utilities': 0.1.3(@astronautlabs/jsonpath@1.1.2)(crypto-js@4.2.0)(lodash@4.17.21)(mobx@6.13.6)(moment@2.30.1)(p-limit@3.1.0)(path-to-regexp@6.3.0)(react-router@5.3.4(react@17.0.2))(react@17.0.2)(readable-stream@3.6.2)(semver@7.7.0)(tar@6.2.1)(type-fest@2.19.0)(typed-regex@0.0.8)
       '@ogre-tools/injectable': 17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21)
       '@ogre-tools/injectable-react': 17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21)(mobx-react@7.6.0(mobx@6.13.6)(react-dom@17.0.2(react@17.0.2))(react@17.0.2))(mobx@6.13.6)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
@@ -4176,9 +4173,9 @@ snapshots:
 
   '@freelensapp/event-emitter@0.1.3': {}
 
-  '@freelensapp/extensions@0.1.3(ngeo4lucg6yfsvikw542ulaifm)':
+  '@freelensapp/extensions@1.0.0(c179dbac5c93c3e1d8369eba1b3d3d1e)':
     dependencies:
-      '@freelensapp/core': 0.1.3(ngeo4lucg6yfsvikw542ulaifm)
+      '@freelensapp/core': 1.0.0(c179dbac5c93c3e1d8369eba1b3d3d1e)
     transitivePeerDependencies:
       - '@freelensapp/animate'
       - '@freelensapp/application'
@@ -4301,12 +4298,12 @@ snapshots:
     dependencies:
       '@ogre-tools/injectable': 17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21)
 
-  '@freelensapp/icon@0.1.3(ixwan6shd7ji3bftwvyo7edkky)':
+  '@freelensapp/icon@0.1.3(fdb67a47dab67e2795e808d3a1f5ab98)':
     dependencies:
       '@freelensapp/button': 0.1.3(@freelensapp/tooltip@0.1.3(@freelensapp/utilities@0.1.3(@astronautlabs/jsonpath@1.1.2)(crypto-js@4.2.0)(lodash@4.17.21)(mobx@6.13.6)(moment@2.30.1)(p-limit@3.1.0)(path-to-regexp@6.3.0)(react-router@5.3.4(react@17.0.2))(react@17.0.2)(readable-stream@3.6.2)(semver@7.7.0)(tar@6.2.1)(type-fest@2.19.0)(typed-regex@0.0.8))(auto-bind@4.0.0)(lodash@4.17.21)(mobx-react@7.6.0(mobx@6.13.6)(react-dom@17.0.2(react@17.0.2))(react@17.0.2))(mobx@6.13.6)(react-dom@17.0.2(react@17.0.2))(react@17.0.2))(@freelensapp/utilities@0.1.3(@astronautlabs/jsonpath@1.1.2)(crypto-js@4.2.0)(lodash@4.17.21)(mobx@6.13.6)(moment@2.30.1)(p-limit@3.1.0)(path-to-regexp@6.3.0)(react-router@5.3.4(react@17.0.2))(react@17.0.2)(readable-stream@3.6.2)(semver@7.7.0)(tar@6.2.1)(type-fest@2.19.0)(typed-regex@0.0.8))(auto-bind@4.0.0)(lodash@4.17.21)(mobx-react@7.6.0(mobx@6.13.6)(react-dom@17.0.2(react@17.0.2))(react@17.0.2))(mobx@6.13.6)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
       '@freelensapp/feature-core': 0.1.3(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))
       '@freelensapp/logger': 0.1.3(@freelensapp/feature-core@0.1.3(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21)))(@ogre-tools/fp@17.11.1(lodash@4.17.21))(@ogre-tools/injectable-extension-for-auto-registration@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21)(winston@3.17.0)
-      '@freelensapp/routing': 0.1.3(wb4naih2jht37wfq2g5r7s3rlq)
+      '@freelensapp/routing': 0.1.3(ef7756321ae34057696932a4ffcd9d37)
       '@freelensapp/tooltip': 0.1.3(@freelensapp/utilities@0.1.3(@astronautlabs/jsonpath@1.1.2)(crypto-js@4.2.0)(lodash@4.17.21)(mobx@6.13.6)(moment@2.30.1)(p-limit@3.1.0)(path-to-regexp@6.3.0)(react-router@5.3.4(react@17.0.2))(react@17.0.2)(readable-stream@3.6.2)(semver@7.7.0)(tar@6.2.1)(type-fest@2.19.0)(typed-regex@0.0.8))(auto-bind@4.0.0)(lodash@4.17.21)(mobx-react@7.6.0(mobx@6.13.6)(react-dom@17.0.2(react@17.0.2))(react@17.0.2))(mobx@6.13.6)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
       '@freelensapp/utilities': 0.1.3(@astronautlabs/jsonpath@1.1.2)(crypto-js@4.2.0)(lodash@4.17.21)(mobx@6.13.6)(moment@2.30.1)(p-limit@3.1.0)(path-to-regexp@6.3.0)(react-router@5.3.4(react@17.0.2))(react@17.0.2)(readable-stream@3.6.2)(semver@7.7.0)(tar@6.2.1)(type-fest@2.19.0)(typed-regex@0.0.8)
       '@ogre-tools/injectable': 17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21)
@@ -4333,15 +4330,15 @@ snapshots:
       lodash: 4.17.21
       rfc6902: 5.1.2
 
-  ? '@freelensapp/kube-api-specifics@0.1.3(@freelensapp/feature-core@0.1.3(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21)))(@freelensapp/kube-api@0.1.3(jxipa4jgszlozet6svscx4h5la))(@freelensapp/logger@0.1.3(@freelensapp/feature-core@0.1.3(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21)))(@ogre-tools/fp@17.11.1(lodash@4.17.21))(@ogre-tools/injectable-extension-for-auto-registration@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21)(winston@3.17.0))(@ogre-tools/injectable-extension-for-auto-registration@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))'
+  ? '@freelensapp/kube-api-specifics@0.1.3(@freelensapp/feature-core@0.1.3(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21)))(@freelensapp/kube-api@0.1.3(42b601b985c3277f2f16c4919da30053))(@freelensapp/logger@0.1.3(@freelensapp/feature-core@0.1.3(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21)))(@ogre-tools/fp@17.11.1(lodash@4.17.21))(@ogre-tools/injectable-extension-for-auto-registration@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21)(winston@3.17.0))(@ogre-tools/injectable-extension-for-auto-registration@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))'
   : dependencies:
       '@freelensapp/feature-core': 0.1.3(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))
-      '@freelensapp/kube-api': 0.1.3(jxipa4jgszlozet6svscx4h5la)
+      '@freelensapp/kube-api': 0.1.3(42b601b985c3277f2f16c4919da30053)
       '@freelensapp/logger': 0.1.3(@freelensapp/feature-core@0.1.3(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21)))(@ogre-tools/fp@17.11.1(lodash@4.17.21))(@ogre-tools/injectable-extension-for-auto-registration@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21)(winston@3.17.0)
       '@ogre-tools/injectable': 17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21)
       '@ogre-tools/injectable-extension-for-auto-registration': 17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21)
 
-  '@freelensapp/kube-api@0.1.3(jxipa4jgszlozet6svscx4h5la)':
+  '@freelensapp/kube-api@0.1.3(42b601b985c3277f2f16c4919da30053)':
     dependencies:
       '@freelensapp/json-api': 0.1.3(@freelensapp/event-emitter@0.1.3)(@freelensapp/logger@0.1.3(@freelensapp/feature-core@0.1.3(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21)))(@ogre-tools/fp@17.11.1(lodash@4.17.21))(@ogre-tools/injectable-extension-for-auto-registration@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21)(winston@3.17.0))(@freelensapp/utilities@0.1.3(@astronautlabs/jsonpath@1.1.2)(crypto-js@4.2.0)(lodash@4.17.21)(mobx@6.13.6)(moment@2.30.1)(p-limit@3.1.0)(path-to-regexp@6.3.0)(react-router@5.3.4(react@17.0.2))(react@17.0.2)(readable-stream@3.6.2)(semver@7.7.0)(tar@6.2.1)(type-fest@2.19.0)(typed-regex@0.0.8))(lodash@4.17.21)(rfc6902@5.1.2)
       '@freelensapp/kube-object': 0.1.3(@freelensapp/utilities@0.1.3(@astronautlabs/jsonpath@1.1.2)(crypto-js@4.2.0)(lodash@4.17.21)(mobx@6.13.6)(moment@2.30.1)(p-limit@3.1.0)(path-to-regexp@6.3.0)(react-router@5.3.4(react@17.0.2))(react@17.0.2)(readable-stream@3.6.2)(semver@7.7.0)(tar@6.2.1)(type-fest@2.19.0)(typed-regex@0.0.8))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(auto-bind@4.0.0)(moment@2.30.1)(rfc6902@5.1.2)(type-fest@2.19.0)(typed-regex@0.0.8)
@@ -4394,32 +4391,32 @@ snapshots:
       lodash: 4.17.21
       winston: 3.17.0
 
-  '@freelensapp/messaging-for-main@0.1.3(57mxdhhgyu3zl27trrouzqs3q4)':
+  '@freelensapp/messaging-for-main@0.1.3(809ce80485667a3845b42371265d3533)':
     dependencies:
-      '@freelensapp/application': 0.1.3(lntcnqtk6twfwxnfs66m2d6ex4)
+      '@freelensapp/application': 0.1.3(c347a016880c87c63c0dd8f38fe4f2d0)
       '@freelensapp/feature-core': 0.1.3(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))
-      '@freelensapp/messaging': 0.1.3(@freelensapp/application@0.1.3(lntcnqtk6twfwxnfs66m2d6ex4))(@freelensapp/feature-core@0.1.3(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21)))(@freelensapp/startable-stoppable@0.1.3)(@ogre-tools/injectable-extension-for-auto-registration@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21))(@ogre-tools/injectable-extension-for-mobx@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21)(mobx@6.13.6))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21)(mobx@6.13.6)
+      '@freelensapp/messaging': 0.1.3(@freelensapp/application@0.1.3(c347a016880c87c63c0dd8f38fe4f2d0))(@freelensapp/feature-core@0.1.3(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21)))(@freelensapp/startable-stoppable@0.1.3)(@ogre-tools/injectable-extension-for-auto-registration@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21))(@ogre-tools/injectable-extension-for-mobx@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21)(mobx@6.13.6))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21)(mobx@6.13.6)
       '@ogre-tools/fp': 17.11.1(lodash@4.17.21)
       '@ogre-tools/injectable': 17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21)
       '@ogre-tools/injectable-extension-for-auto-registration': 17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21)
       electron: 22.3.27
       lodash: 4.17.21
 
-  '@freelensapp/messaging-for-renderer@0.1.3(e7nstvh77yuk7bsw7n244pyqwu)':
+  '@freelensapp/messaging-for-renderer@0.1.3(0c743307af28ee5461fd016bde67bd83)':
     dependencies:
-      '@freelensapp/application': 0.1.3(lntcnqtk6twfwxnfs66m2d6ex4)
+      '@freelensapp/application': 0.1.3(c347a016880c87c63c0dd8f38fe4f2d0)
       '@freelensapp/feature-core': 0.1.3(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))
-      '@freelensapp/messaging': 0.1.3(@freelensapp/application@0.1.3(lntcnqtk6twfwxnfs66m2d6ex4))(@freelensapp/feature-core@0.1.3(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21)))(@freelensapp/startable-stoppable@0.1.3)(@ogre-tools/injectable-extension-for-auto-registration@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21))(@ogre-tools/injectable-extension-for-mobx@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21)(mobx@6.13.6))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21)(mobx@6.13.6)
-      '@freelensapp/run-many': 0.1.3(csrgg7n64lwm7fdizfmz7fbhga)
+      '@freelensapp/messaging': 0.1.3(@freelensapp/application@0.1.3(c347a016880c87c63c0dd8f38fe4f2d0))(@freelensapp/feature-core@0.1.3(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21)))(@freelensapp/startable-stoppable@0.1.3)(@ogre-tools/injectable-extension-for-auto-registration@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21))(@ogre-tools/injectable-extension-for-mobx@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21)(mobx@6.13.6))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21)(mobx@6.13.6)
+      '@freelensapp/run-many': 0.1.3(e8c8ef5d2081d6ae9d3e15cab27cdcb5)
       '@freelensapp/startable-stoppable': 0.1.3
       '@ogre-tools/injectable': 17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21)
       '@ogre-tools/injectable-extension-for-auto-registration': 17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21)
       electron: 22.3.27
       lodash: 4.17.21
 
-  '@freelensapp/messaging@0.1.3(@freelensapp/application@0.1.3(lntcnqtk6twfwxnfs66m2d6ex4))(@freelensapp/feature-core@0.1.3(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21)))(@freelensapp/startable-stoppable@0.1.3)(@ogre-tools/injectable-extension-for-auto-registration@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21))(@ogre-tools/injectable-extension-for-mobx@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21)(mobx@6.13.6))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21)(mobx@6.13.6)':
+  '@freelensapp/messaging@0.1.3(@freelensapp/application@0.1.3(c347a016880c87c63c0dd8f38fe4f2d0))(@freelensapp/feature-core@0.1.3(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21)))(@freelensapp/startable-stoppable@0.1.3)(@ogre-tools/injectable-extension-for-auto-registration@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21))(@ogre-tools/injectable-extension-for-mobx@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21)(mobx@6.13.6))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21)(mobx@6.13.6)':
     dependencies:
-      '@freelensapp/application': 0.1.3(lntcnqtk6twfwxnfs66m2d6ex4)
+      '@freelensapp/application': 0.1.3(c347a016880c87c63c0dd8f38fe4f2d0)
       '@freelensapp/feature-core': 0.1.3(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))
       '@freelensapp/startable-stoppable': 0.1.3
       '@ogre-tools/injectable': 17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21)
@@ -4438,17 +4435,17 @@ snapshots:
     dependencies:
       node-fetch: 3.3.2
 
-  '@freelensapp/notifications@0.1.3(edyand52qd2yvxty6f5p23muaq)':
+  '@freelensapp/notifications@0.1.3(22798175a93907efab1d943850b39e44)':
     dependencies:
-      '@freelensapp/animate': 0.1.3(5rngbaegkj263qz3byanmzdyfy)
-      '@freelensapp/application': 0.1.3(lntcnqtk6twfwxnfs66m2d6ex4)
+      '@freelensapp/animate': 0.1.3(251d1e76352ddc5f3e246ac610d90f41)
+      '@freelensapp/application': 0.1.3(c347a016880c87c63c0dd8f38fe4f2d0)
       '@freelensapp/event-emitter': 0.1.3
       '@freelensapp/feature-core': 0.1.3(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))
-      '@freelensapp/icon': 0.1.3(ixwan6shd7ji3bftwvyo7edkky)
+      '@freelensapp/icon': 0.1.3(fdb67a47dab67e2795e808d3a1f5ab98)
       '@freelensapp/json-api': 0.1.3(@freelensapp/event-emitter@0.1.3)(@freelensapp/logger@0.1.3(@freelensapp/feature-core@0.1.3(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21)))(@ogre-tools/fp@17.11.1(lodash@4.17.21))(@ogre-tools/injectable-extension-for-auto-registration@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21)(winston@3.17.0))(@freelensapp/utilities@0.1.3(@astronautlabs/jsonpath@1.1.2)(crypto-js@4.2.0)(lodash@4.17.21)(mobx@6.13.6)(moment@2.30.1)(p-limit@3.1.0)(path-to-regexp@6.3.0)(react-router@5.3.4(react@17.0.2))(react@17.0.2)(readable-stream@3.6.2)(semver@7.7.0)(tar@6.2.1)(type-fest@2.19.0)(typed-regex@0.0.8))(lodash@4.17.21)(rfc6902@5.1.2)
       '@freelensapp/logger': 0.1.3(@freelensapp/feature-core@0.1.3(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21)))(@ogre-tools/fp@17.11.1(lodash@4.17.21))(@ogre-tools/injectable-extension-for-auto-registration@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21)(winston@3.17.0)
-      '@freelensapp/react-application': 0.1.3(o2xlirbjlcaw3ekurdapjxtlre)
-      '@freelensapp/run-many': 0.1.3(csrgg7n64lwm7fdizfmz7fbhga)
+      '@freelensapp/react-application': 0.1.3(6afefa47641c98b110f27cd65f3a90cd)
+      '@freelensapp/run-many': 0.1.3(e8c8ef5d2081d6ae9d3e15cab27cdcb5)
       '@freelensapp/tooltip': 0.1.3(@freelensapp/utilities@0.1.3(@astronautlabs/jsonpath@1.1.2)(crypto-js@4.2.0)(lodash@4.17.21)(mobx@6.13.6)(moment@2.30.1)(p-limit@3.1.0)(path-to-regexp@6.3.0)(react-router@5.3.4(react@17.0.2))(react@17.0.2)(readable-stream@3.6.2)(semver@7.7.0)(tar@6.2.1)(type-fest@2.19.0)(typed-regex@0.0.8))(auto-bind@4.0.0)(lodash@4.17.21)(mobx-react@7.6.0(mobx@6.13.6)(react-dom@17.0.2(react@17.0.2))(react@17.0.2))(mobx@6.13.6)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
       '@freelensapp/utilities': 0.1.3(@astronautlabs/jsonpath@1.1.2)(crypto-js@4.2.0)(lodash@4.17.21)(mobx@6.13.6)(moment@2.30.1)(p-limit@3.1.0)(path-to-regexp@6.3.0)(react-router@5.3.4(react@17.0.2))(react@17.0.2)(readable-stream@3.6.2)(semver@7.7.0)(tar@6.2.1)(type-fest@2.19.0)(typed-regex@0.0.8)
       '@ogre-tools/fp': 17.11.1(lodash@4.17.21)
@@ -4466,9 +4463,9 @@ snapshots:
       uuid: 8.3.2
       winston: 3.17.0
 
-  '@freelensapp/prometheus@0.1.3(lnpl4n4tyzwgwf7ir37gdwjzju)':
+  '@freelensapp/prometheus@0.1.3(e1c8ef47544948a0872303dbbe190d9a)':
     dependencies:
-      '@freelensapp/application': 0.1.3(lntcnqtk6twfwxnfs66m2d6ex4)
+      '@freelensapp/application': 0.1.3(c347a016880c87c63c0dd8f38fe4f2d0)
       '@freelensapp/feature-core': 0.1.3(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))
       '@freelensapp/utilities': 0.1.3(@astronautlabs/jsonpath@1.1.2)(crypto-js@4.2.0)(lodash@4.17.21)(mobx@6.13.6)(moment@2.30.1)(p-limit@3.1.0)(path-to-regexp@6.3.0)(react-router@5.3.4(react@17.0.2))(react@17.0.2)(readable-stream@3.6.2)(semver@7.7.0)(tar@6.2.1)(type-fest@2.19.0)(typed-regex@0.0.8)
       '@kubernetes/client-node': 0.18.1
@@ -4484,9 +4481,9 @@ snapshots:
       '@ogre-tools/injectable-extension-for-auto-registration': 17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21)
       uuid: 8.3.2
 
-  '@freelensapp/react-application@0.1.3(o2xlirbjlcaw3ekurdapjxtlre)':
+  '@freelensapp/react-application@0.1.3(6afefa47641c98b110f27cd65f3a90cd)':
     dependencies:
-      '@freelensapp/application': 0.1.3(lntcnqtk6twfwxnfs66m2d6ex4)
+      '@freelensapp/application': 0.1.3(c347a016880c87c63c0dd8f38fe4f2d0)
       '@freelensapp/feature-core': 0.1.3(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))
       '@ogre-tools/fp': 17.11.1(lodash@4.17.21)
       '@ogre-tools/injectable': 17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21)
@@ -4515,10 +4512,10 @@ snapshots:
 
   '@freelensapp/resource-templates@0.1.3': {}
 
-  '@freelensapp/routing@0.1.3(wb4naih2jht37wfq2g5r7s3rlq)':
+  '@freelensapp/routing@0.1.3(ef7756321ae34057696932a4ffcd9d37)':
     dependencies:
       '@freelensapp/feature-core': 0.1.3(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))
-      '@freelensapp/react-application': 0.1.3(o2xlirbjlcaw3ekurdapjxtlre)
+      '@freelensapp/react-application': 0.1.3(6afefa47641c98b110f27cd65f3a90cd)
       '@ogre-tools/fp': 17.11.1(lodash@4.17.21)
       '@ogre-tools/injectable': 17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21)
       '@ogre-tools/injectable-extension-for-auto-registration': 17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21)
@@ -4532,9 +4529,9 @@ snapshots:
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
 
-  '@freelensapp/run-many@0.1.3(csrgg7n64lwm7fdizfmz7fbhga)':
+  '@freelensapp/run-many@0.1.3(e8c8ef5d2081d6ae9d3e15cab27cdcb5)':
     dependencies:
-      '@freelensapp/test-utils': 0.1.3(@ogre-tools/injectable-react@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21)(mobx-react@7.6.0(mobx@6.13.6)(react-dom@17.0.2(react@17.0.2))(react@17.0.2))(mobx@6.13.6)(react-dom@17.0.2(react@17.0.2))(react@17.0.2))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(@testing-library/react@12.1.5(@types/react@17.0.59)(react-dom@17.0.2(react@17.0.2))(react@17.0.2))(lodash@4.17.21)(mobx@6.13.6)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
+      '@freelensapp/test-utils': 0.1.3(@ogre-tools/injectable-react@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21)(mobx-react@7.6.0(mobx@6.13.6)(react-dom@17.0.2(react@17.0.2))(react@17.0.2))(mobx@6.13.6)(react-dom@17.0.2(react@17.0.2))(react@17.0.2))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(@testing-library/react@12.1.5(@types/react@19.0.9)(react-dom@17.0.2(react@17.0.2))(react@17.0.2))(lodash@4.17.21)(mobx@6.13.6)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
       '@freelensapp/utilities': 0.1.3(@astronautlabs/jsonpath@1.1.2)(crypto-js@4.2.0)(lodash@4.17.21)(mobx@6.13.6)(moment@2.30.1)(p-limit@3.1.0)(path-to-regexp@6.3.0)(react-router@5.3.4(react@17.0.2))(react@17.0.2)(readable-stream@3.6.2)(semver@7.7.0)(tar@6.2.1)(type-fest@2.19.0)(typed-regex@0.0.8)
       '@ogre-tools/fp': 17.11.1(lodash@4.17.21)
       '@ogre-tools/injectable': 17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21)
@@ -4549,11 +4546,11 @@ snapshots:
 
   '@freelensapp/startable-stoppable@0.1.3': {}
 
-  '@freelensapp/test-utils@0.1.3(@ogre-tools/injectable-react@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21)(mobx-react@7.6.0(mobx@6.13.6)(react-dom@17.0.2(react@17.0.2))(react@17.0.2))(mobx@6.13.6)(react-dom@17.0.2(react@17.0.2))(react@17.0.2))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(@testing-library/react@12.1.5(@types/react@17.0.59)(react-dom@17.0.2(react@17.0.2))(react@17.0.2))(lodash@4.17.21)(mobx@6.13.6)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)':
+  '@freelensapp/test-utils@0.1.3(@ogre-tools/injectable-react@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21)(mobx-react@7.6.0(mobx@6.13.6)(react-dom@17.0.2(react@17.0.2))(react@17.0.2))(mobx@6.13.6)(react-dom@17.0.2(react@17.0.2))(react@17.0.2))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(@testing-library/react@12.1.5(@types/react@19.0.9)(react-dom@17.0.2(react@17.0.2))(react@17.0.2))(lodash@4.17.21)(mobx@6.13.6)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)':
     dependencies:
       '@ogre-tools/injectable': 17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21)
       '@ogre-tools/injectable-react': 17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(@ogre-tools/injectable@17.11.1(@ogre-tools/fp@17.11.1(lodash@4.17.21))(lodash@4.17.21))(lodash@4.17.21)(mobx-react@7.6.0(mobx@6.13.6)(react-dom@17.0.2(react@17.0.2))(react@17.0.2))(mobx@6.13.6)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
-      '@testing-library/react': 12.1.5(@types/react@17.0.59)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
+      '@testing-library/react': 12.1.5(@types/react@19.0.9)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
       lodash: 4.17.21
       mobx: 6.13.6
       react: 17.0.2
@@ -4710,14 +4707,14 @@ snapshots:
       - bufferutil
       - utf-8-validate
 
-  '@material-ui/core@4.12.4(@types/react@17.0.59)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)':
+  '@material-ui/core@4.12.4(@types/react@19.0.9)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)':
     dependencies:
       '@babel/runtime': 7.26.7
-      '@material-ui/styles': 4.11.5(@types/react@17.0.59)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
-      '@material-ui/system': 4.12.2(@types/react@17.0.59)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
-      '@material-ui/types': 5.1.0(@types/react@17.0.59)
+      '@material-ui/styles': 4.11.5(@types/react@19.0.9)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
+      '@material-ui/system': 4.12.2(@types/react@19.0.9)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
+      '@material-ui/types': 5.1.0(@types/react@19.0.9)
       '@material-ui/utils': 4.11.3(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
-      '@types/react-transition-group': 4.4.12(@types/react@17.0.59)
+      '@types/react-transition-group': 4.4.12(@types/react@19.0.9)
       clsx: 1.2.1
       hoist-non-react-statics: 3.3.2
       popper.js: 1.16.1-lts
@@ -4727,21 +4724,21 @@ snapshots:
       react-is: 17.0.2
       react-transition-group: 4.4.5(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
     optionalDependencies:
-      '@types/react': 17.0.59
+      '@types/react': 19.0.9
 
-  '@material-ui/icons@4.11.3(@material-ui/core@4.12.4(@types/react@17.0.59)(react-dom@17.0.2(react@17.0.2))(react@17.0.2))(@types/react@17.0.59)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)':
+  '@material-ui/icons@4.11.3(@material-ui/core@4.12.4(@types/react@19.0.9)(react-dom@17.0.2(react@17.0.2))(react@17.0.2))(@types/react@19.0.9)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)':
     dependencies:
       '@babel/runtime': 7.26.7
-      '@material-ui/core': 4.12.4(@types/react@17.0.59)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
+      '@material-ui/core': 4.12.4(@types/react@19.0.9)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
     optionalDependencies:
-      '@types/react': 17.0.59
+      '@types/react': 19.0.9
 
-  '@material-ui/lab@4.0.0-alpha.61(@material-ui/core@4.12.4(@types/react@17.0.59)(react-dom@17.0.2(react@17.0.2))(react@17.0.2))(@types/react@17.0.59)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)':
+  '@material-ui/lab@4.0.0-alpha.61(@material-ui/core@4.12.4(@types/react@19.0.9)(react-dom@17.0.2(react@17.0.2))(react@17.0.2))(@types/react@19.0.9)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)':
     dependencies:
       '@babel/runtime': 7.26.7
-      '@material-ui/core': 4.12.4(@types/react@17.0.59)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
+      '@material-ui/core': 4.12.4(@types/react@19.0.9)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
       '@material-ui/utils': 4.11.3(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
       clsx: 1.2.1
       prop-types: 15.8.1
@@ -4749,13 +4746,13 @@ snapshots:
       react-dom: 17.0.2(react@17.0.2)
       react-is: 17.0.2
     optionalDependencies:
-      '@types/react': 17.0.59
+      '@types/react': 19.0.9
 
-  '@material-ui/styles@4.11.5(@types/react@17.0.59)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)':
+  '@material-ui/styles@4.11.5(@types/react@19.0.9)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)':
     dependencies:
       '@babel/runtime': 7.26.7
       '@emotion/hash': 0.8.0
-      '@material-ui/types': 5.1.0(@types/react@17.0.59)
+      '@material-ui/types': 5.1.0(@types/react@19.0.9)
       '@material-ui/utils': 4.11.3(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
       clsx: 1.2.1
       csstype: 2.6.21
@@ -4772,9 +4769,9 @@ snapshots:
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
     optionalDependencies:
-      '@types/react': 17.0.59
+      '@types/react': 19.0.9
 
-  '@material-ui/system@4.12.2(@types/react@17.0.59)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)':
+  '@material-ui/system@4.12.2(@types/react@19.0.9)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)':
     dependencies:
       '@babel/runtime': 7.26.7
       '@material-ui/utils': 4.11.3(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
@@ -4783,11 +4780,11 @@ snapshots:
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
     optionalDependencies:
-      '@types/react': 17.0.59
+      '@types/react': 19.0.9
 
-  '@material-ui/types@5.1.0(@types/react@17.0.59)':
+  '@material-ui/types@5.1.0(@types/react@19.0.9)':
     optionalDependencies:
-      '@types/react': 17.0.59
+      '@types/react': 19.0.9
 
   '@material-ui/utils@4.11.3(react-dom@17.0.2(react@17.0.2))(react@17.0.2)':
     dependencies:
@@ -5011,11 +5008,11 @@ snapshots:
       lz-string: 1.5.0
       pretty-format: 27.5.1
 
-  '@testing-library/react@12.1.5(@types/react@17.0.59)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)':
+  '@testing-library/react@12.1.5(@types/react@19.0.9)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)':
     dependencies:
       '@babel/runtime': 7.26.7
       '@testing-library/dom': 8.20.1
-      '@types/react-dom': 17.0.26(@types/react@17.0.59)
+      '@types/react-dom': 17.0.26(@types/react@19.0.9)
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
     transitivePeerDependencies:
@@ -5048,7 +5045,7 @@ snapshots:
 
   '@types/hoist-non-react-statics@3.3.6':
     dependencies:
-      '@types/react': 17.0.59
+      '@types/react': 19.0.9
       hoist-non-react-statics: 3.3.2
 
   '@types/http-cache-semantics@4.0.4': {}
@@ -5075,20 +5072,20 @@ snapshots:
 
   '@types/prop-types@15.7.14': {}
 
-  '@types/react-dom@17.0.26(@types/react@17.0.59)':
+  '@types/react-dom@17.0.26(@types/react@19.0.9)':
     dependencies:
-      '@types/react': 17.0.59
+      '@types/react': 19.0.9
 
   '@types/react-redux@7.1.34':
     dependencies:
       '@types/hoist-non-react-statics': 3.3.6
-      '@types/react': 17.0.59
+      '@types/react': 19.0.9
       hoist-non-react-statics: 3.3.2
       redux: 4.2.1
 
-  '@types/react-transition-group@4.4.12(@types/react@17.0.59)':
+  '@types/react-transition-group@4.4.12(@types/react@19.0.9)':
     dependencies:
-      '@types/react': 17.0.59
+      '@types/react': 19.0.9
 
   '@types/react@16.14.62':
     dependencies:
@@ -5096,10 +5093,8 @@ snapshots:
       '@types/scheduler': 0.16.8
       csstype: 3.1.3
 
-  '@types/react@17.0.59':
+  '@types/react@19.0.9':
     dependencies:
-      '@types/prop-types': 15.7.14
-      '@types/scheduler': 0.23.0
       csstype: 3.1.3
 
   '@types/request@2.48.12':
@@ -5114,8 +5109,6 @@ snapshots:
       '@types/node': 18.19.74
 
   '@types/scheduler@0.16.8': {}
-
-  '@types/scheduler@0.23.0': {}
 
   '@types/semver@7.5.8': {}
 
@@ -5296,17 +5289,17 @@ snapshots:
       '@webassemblyjs/ast': 1.14.1
       '@xtuc/long': 4.2.2
 
-  '@webpack-cli/configtest@2.1.1(webpack-cli@5.1.4(webpack@5.97.1))(webpack@5.97.1(webpack-cli@5.1.4))':
+  '@webpack-cli/configtest@2.1.1(webpack-cli@5.1.4)(webpack@5.97.1)':
     dependencies:
       webpack: 5.97.1(webpack-cli@5.1.4)
       webpack-cli: 5.1.4(webpack@5.97.1)
 
-  '@webpack-cli/info@2.0.2(webpack-cli@5.1.4(webpack@5.97.1))(webpack@5.97.1(webpack-cli@5.1.4))':
+  '@webpack-cli/info@2.0.2(webpack-cli@5.1.4)(webpack@5.97.1)':
     dependencies:
       webpack: 5.97.1(webpack-cli@5.1.4)
       webpack-cli: 5.1.4(webpack@5.97.1)
 
-  '@webpack-cli/serve@2.0.5(webpack-cli@5.1.4(webpack@5.97.1))(webpack@5.97.1(webpack-cli@5.1.4))':
+  '@webpack-cli/serve@2.0.5(webpack-cli@5.1.4)(webpack@5.97.1)':
     dependencies:
       webpack: 5.97.1(webpack-cli@5.1.4)
       webpack-cli: 5.1.4(webpack@5.97.1)
@@ -5641,7 +5634,7 @@ snapshots:
     dependencies:
       tiny-invariant: 1.3.3
 
-  css-loader@7.1.2(webpack@5.97.1(webpack-cli@5.1.4)):
+  css-loader@7.1.2(webpack@5.97.1):
     dependencies:
       icss-utils: 5.1.0(postcss@8.5.1)
       postcss: 8.5.1
@@ -7044,10 +7037,10 @@ snapshots:
 
   react-is@17.0.2: {}
 
-  react-material-ui-carousel@2.3.11(@material-ui/core@4.12.4(@types/react@17.0.59)(react-dom@17.0.2(react@17.0.2))(react@17.0.2))(@material-ui/icons@4.11.3(@material-ui/core@4.12.4(@types/react@17.0.59)(react-dom@17.0.2(react@17.0.2))(react@17.0.2))(@types/react@17.0.59)(react-dom@17.0.2(react@17.0.2))(react@17.0.2))(react-dom@17.0.2(react@17.0.2))(react@17.0.2):
+  react-material-ui-carousel@2.3.11(@material-ui/core@4.12.4(@types/react@19.0.9)(react-dom@17.0.2(react@17.0.2))(react@17.0.2))(@material-ui/icons@4.11.3(@material-ui/core@4.12.4(@types/react@19.0.9)(react-dom@17.0.2(react@17.0.2))(react@17.0.2))(@types/react@19.0.9)(react-dom@17.0.2(react@17.0.2))(react@17.0.2))(react-dom@17.0.2(react@17.0.2))(react@17.0.2):
     dependencies:
-      '@material-ui/core': 4.12.4(@types/react@17.0.59)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
-      '@material-ui/icons': 4.11.3(@material-ui/core@4.12.4(@types/react@17.0.59)(react-dom@17.0.2(react@17.0.2))(react@17.0.2))(@types/react@17.0.59)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
+      '@material-ui/core': 4.12.4(@types/react@19.0.9)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
+      '@material-ui/icons': 4.11.3(@material-ui/core@4.12.4(@types/react@19.0.9)(react-dom@17.0.2(react@17.0.2))(react@17.0.2))(@types/react@19.0.9)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
       auto-bind: 2.1.1
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
@@ -7093,19 +7086,19 @@ snapshots:
     dependencies:
       '@testing-library/dom': 10.4.0
 
-  react-select@5.10.0(@types/react@17.0.59)(react-dom@17.0.2(react@17.0.2))(react@17.0.2):
+  react-select@5.10.0(@types/react@19.0.9)(react-dom@17.0.2(react@17.0.2))(react@17.0.2):
     dependencies:
       '@babel/runtime': 7.26.7
       '@emotion/cache': 11.14.0
-      '@emotion/react': 11.14.0(@types/react@17.0.59)(react@17.0.2)
+      '@emotion/react': 11.14.0(@types/react@19.0.9)(react@17.0.2)
       '@floating-ui/dom': 1.6.13
-      '@types/react-transition-group': 4.4.12(@types/react@17.0.59)
+      '@types/react-transition-group': 4.4.12(@types/react@19.0.9)
       memoize-one: 6.0.0
       prop-types: 15.8.1
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
       react-transition-group: 4.4.5(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
-      use-isomorphic-layout-effect: 1.2.0(@types/react@17.0.59)(react@17.0.2)
+      use-isomorphic-layout-effect: 1.2.0(@types/react@19.0.9)(react@17.0.2)
     transitivePeerDependencies:
       - '@types/react'
       - supports-color
@@ -7274,7 +7267,7 @@ snapshots:
 
   safer-buffer@2.1.2: {}
 
-  sass-loader@16.0.4(sass@1.83.4)(webpack@5.97.1(webpack-cli@5.1.4)):
+  sass-loader@16.0.4(sass@1.83.4)(webpack@5.97.1):
     dependencies:
       neo-async: 2.6.2
     optionalDependencies:
@@ -7459,7 +7452,7 @@ snapshots:
 
   strip-json-comments@3.1.1: {}
 
-  style-loader@4.0.0(webpack@5.97.1(webpack-cli@5.1.4)):
+  style-loader@4.0.0(webpack@5.97.1):
     dependencies:
       webpack: 5.97.1(webpack-cli@5.1.4)
 
@@ -7509,7 +7502,7 @@ snapshots:
       type-fest: 0.16.0
       unique-string: 2.0.0
 
-  terser-webpack-plugin@5.3.11(webpack@5.97.1(webpack-cli@5.1.4)):
+  terser-webpack-plugin@5.3.11(webpack@5.97.1):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.25
       jest-worker: 27.5.1
@@ -7556,7 +7549,7 @@ snapshots:
     dependencies:
       typescript: 4.9.5
 
-  ts-loader@9.5.2(typescript@4.9.5)(webpack@5.97.1(webpack-cli@5.1.4)):
+  ts-loader@9.5.2(typescript@4.9.5)(webpack@5.97.1):
     dependencies:
       chalk: 4.1.2
       enhanced-resolve: 5.18.0
@@ -7635,11 +7628,11 @@ snapshots:
       querystringify: 2.2.0
       requires-port: 1.0.0
 
-  use-isomorphic-layout-effect@1.2.0(@types/react@17.0.59)(react@17.0.2):
+  use-isomorphic-layout-effect@1.2.0(@types/react@19.0.9)(react@17.0.2):
     dependencies:
       react: 17.0.2
     optionalDependencies:
-      '@types/react': 17.0.59
+      '@types/react': 19.0.9
 
   use-memo-one@1.1.3(react@17.0.2):
     dependencies:
@@ -7669,9 +7662,9 @@ snapshots:
   webpack-cli@5.1.4(webpack@5.97.1):
     dependencies:
       '@discoveryjs/json-ext': 0.5.7
-      '@webpack-cli/configtest': 2.1.1(webpack-cli@5.1.4(webpack@5.97.1))(webpack@5.97.1(webpack-cli@5.1.4))
-      '@webpack-cli/info': 2.0.2(webpack-cli@5.1.4(webpack@5.97.1))(webpack@5.97.1(webpack-cli@5.1.4))
-      '@webpack-cli/serve': 2.0.5(webpack-cli@5.1.4(webpack@5.97.1))(webpack@5.97.1(webpack-cli@5.1.4))
+      '@webpack-cli/configtest': 2.1.1(webpack-cli@5.1.4)(webpack@5.97.1)
+      '@webpack-cli/info': 2.0.2(webpack-cli@5.1.4)(webpack@5.97.1)
+      '@webpack-cli/serve': 2.0.5(webpack-cli@5.1.4)(webpack@5.97.1)
       colorette: 2.0.20
       commander: 10.0.1
       cross-spawn: 7.0.6
@@ -7713,7 +7706,7 @@ snapshots:
       neo-async: 2.6.2
       schema-utils: 3.3.0
       tapable: 2.2.1
-      terser-webpack-plugin: 5.3.11(webpack@5.97.1(webpack-cli@5.1.4))
+      terser-webpack-plugin: 5.3.11(webpack@5.97.1)
       watchpack: 2.4.2
       webpack-sources: 3.2.3
     optionalDependencies:

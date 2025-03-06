@@ -1,6 +1,6 @@
 {
   "name": "@ottimis/freelens-version-update",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "author": "Ottimis Group, Srl <info@ottimis.com> (https://ottimis.com)",
   "maintainers": [
     {
@@ -14,7 +14,7 @@
     "url": "https://github.com/ottimis/freelens-version-update.git"
   },
   "engines": {
-    "freelens": "^0.1.0"
+    "freelens": "^1.0.0"
   },
   "main": "dist/main.js",
   "renderer": "dist/renderer.js",
@@ -37,9 +37,9 @@
   ],
   "private": false,
   "devDependencies": {
-    "@freelensapp/extensions": "^0.1.0",
+    "@freelensapp/extensions": "^1.0.0",
     "@types/node": "18.19.74",
-    "@types/react": "17.0.59",
+    "@types/react": "19.0.9",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
     "eslint": "^8.31.0",
