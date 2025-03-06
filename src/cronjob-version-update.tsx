@@ -86,11 +86,12 @@ export class CronJobVersionUpdate extends React.Component<Renderer.Component.Kub
               <div key={index} className="data">
                 <div className="name">{`${value.name} - ${value.image}`}</div>
                 <div className="flex gaps align-flex-start">
-                  <input
-                    type="text"
-                    className="box grow"
-                    value={value.tag}
-                    onChange={(e: React.ChangeEvent<HTMLInputElement>) => this.initContainers.set(index, { ...value, tag: e.target.value })}
+                  <Renderer.Component.Input
+                      multiLine
+                      theme="round-black"
+                      className="box grow"
+                      value={value.tag}
+                      onChange={v => this.initContainers.set(index, { ...value, tag: v })}
                   />
                 </div>
               </div>
@@ -105,11 +106,12 @@ export class CronJobVersionUpdate extends React.Component<Renderer.Component.Kub
               <div key={index} className="data">
                 <div className="name">{`${value.name} - ${value.image}`}</div>
                 <div className="flex gaps align-flex-start">
-                  <input
-                    type="text"
-                    className="box grow"
-                    value={value.tag}
-                    onChange={(e: React.ChangeEvent<HTMLInputElement>) => this.containers.set(index, { ...value, tag: e.target.value })}
+                  <Renderer.Component.Input
+                      multiLine
+                      theme="round-black"
+                      className="box grow"
+                      value={value.tag}
+                      onChange={v => this.containers.set(index, { ...value, tag: v })}
                   />
                 </div>
               </div>
