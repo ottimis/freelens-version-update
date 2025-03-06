@@ -5,6 +5,7 @@ import React from "react";
 import { observable, makeObservable, autorun } from "mobx";
 import { disposeOnUnmount, observer } from "mobx-react";
 
+// Based on https://regex101.com/r/nmSDPA/1
 const imageRegex = /^(?<name>(?:(?<domain>(?:localhost|[\w-]+(?:\.[\w-]+)+)(?::\d+)?|\w+:\d+)\/)?(?<image>[a-z0-9_.-]+(?:\/[a-z0-9_.-]+)*))(?::(?<tag>\w[\w.-]{0,127}))?(?:@(?<digest>[A-Za-z][A-Za-z0-9]*(?:[+.-_][A-Za-z][A-Za-z0-9]*)*:[0-9a-fA-F]{32,}))?$/;
 
 @observer
