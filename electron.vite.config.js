@@ -13,6 +13,8 @@ export default defineConfig({
       rollupOptions: {
         output: {
           exports: "named",
+          preserveModules: true,
+          preserveModulesRoot: "src/main",
         },
       },
     },
@@ -43,6 +45,8 @@ export default defineConfig({
       rollupOptions: {
         output: {
           exports: "named",
+          preserveModules: true,
+          preserveModulesRoot: "src/renderer",
         },
       },
     },
