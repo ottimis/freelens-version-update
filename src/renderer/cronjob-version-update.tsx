@@ -1,4 +1,4 @@
-import "./cronjob-version-update.scss";
+import css from "./cronjob-version-update.scss?inline";
 
 import { Renderer } from "@freelensapp/extensions";
 import React from "react";
@@ -25,7 +25,7 @@ export class CronJobVersionUpdate extends React.Component<Renderer.Component.Kub
         const { object } = this.props;
 
         const parse = (container: Renderer.K8sApi.IPodContainer) => {
-          const match = container.image.match(imageRegex);
+          const match = (container.image ?? "").match(imageRegex);
           return {
             image: match?.groups?.name || "",
             tag: (match?.groups?.tag ?? "latest") + (match?.groups?.digest ? "@" + match.groups.digest : ""),
@@ -34,10 +34,10 @@ export class CronJobVersionUpdate extends React.Component<Renderer.Component.Kub
         };
 
         if (object) {
-          object.spec.jobTemplate.spec.containers?.forEach((container, index) => {
+          object.spec.jobTemplate?.spec?.template.spec.containers?.forEach((container, index) => {
             this.containers.set(index, parse(container));
           });
-          // object.spec.jobTemplate.spec.initContainers?.forEach((container, index) => {
+          // object.spec.jobTemplate?.spec?.template.spec.initContainers?.forEach((container, index) => {
           //   this.initContainers.set(index, parse(container));
           // });
         }
@@ -49,10 +49,10 @@ export class CronJobVersionUpdate extends React.Component<Renderer.Component.Kub
     const { object } = this.props;
 
     for (const [index, value] of this.containers) {
-      object.spec.jobTemplate.spec.containers[index].image = `${value.image}:${value.tag}`;
+      object.spec.jobTemplate!.spec!.template.spec.containers![index].image = `${value.image}:${value.tag}`;
     }
     // for (const [index, value] of this.initContainers) {
-    //   object.spec.jobTemplate.spec.initContainers[index].image = `${value.image}:${value.tag}`;
+    //   object.spec.jobTemplate!.spec!.template.spec.initContainers![index].image = `${value.image}:${value.tag}`;
     // }
 
     try {
@@ -73,12 +73,12 @@ export class CronJobVersionUpdate extends React.Component<Renderer.Component.Kub
   };
 
   render() {
-    const { object } = this.props;
     const containers = Array.from(this.containers.entries());
     const initContainers = Array.from(this.initContainers.entries());
 
     return (
       <div className="CronJobVersionUpdateDetail">
+        <style>{css}</style>
         {initContainers.length > 0 && (
           <>
             <Renderer.Component.DrawerTitle>{`InitContainer image${initContainers.length > 1 ? "s" : ""}`}</Renderer.Component.DrawerTitle>

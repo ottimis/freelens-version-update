@@ -1,4 +1,4 @@
-import "./deployment-version-update.scss";
+import css from "./statefulset-version-update.scss?inline";
 
 import { Renderer } from "@freelensapp/extensions";
 import React from "react";
@@ -9,12 +9,12 @@ import { disposeOnUnmount, observer } from "mobx-react";
 const imageRegex = /^(?<name>(?:(?<domain>(?:localhost|[\w-]+(?:\.[\w-]+)+)(?::\d+)?|\w+:\d+)\/)?(?<image>[a-z0-9_.-]+(?:\/[a-z0-9_.-]+)*))(?::(?<tag>\w[\w.-]{0,127}))?(?:@(?<digest>[A-Za-z][A-Za-z0-9]*(?:[+.-_][A-Za-z][A-Za-z0-9]*)*:[0-9a-fA-F]{32,}))?$/;
 
 @observer
-export class DeploymentVersionUpdate extends React.Component<Renderer.Component.KubeObjectDetailsProps<Renderer.K8sApi.Deployment>> {
+export class StatefulSetVersionUpdate extends React.Component<Renderer.Component.KubeObjectDetailsProps<Renderer.K8sApi.StatefulSet>> {
   @observable isSaving = false;
   @observable containers = observable.map<number, { image: string, tag: string, name: string }>();
   @observable initContainers = observable.map<number, { image: string, tag: string, name: string }>();
 
-  constructor(props: Renderer.Component.KubeObjectDetailsProps<Renderer.K8sApi.Deployment>) {
+  constructor(props: Renderer.Component.KubeObjectDetailsProps<Renderer.K8sApi.StatefulSet>) {
     super(props);
     makeObservable(this);
   }
@@ -25,19 +25,19 @@ export class DeploymentVersionUpdate extends React.Component<Renderer.Component.
         const { object } = this.props;
 
         const parse = (container: Renderer.K8sApi.IPodContainer) => {
-          const match = container.image.match(imageRegex);
+          const match = (container.image ?? "").match(imageRegex);
           return {
-            image: match.groups?.name || "",
-            tag: (match.groups?.tag ?? "latest") + (match.groups?.digest ? "@" + match.groups.digest : ""),
+            image: match?.groups?.name || "",
+            tag: (match?.groups?.tag ?? "latest") + (match?.groups?.digest ? "@" + match.groups.digest : ""),
             name: container.name,
           };
         };
 
         if (object) {
-          object.spec.template.spec.containers?.forEach((container, index) => {
+          object.spec.template.spec?.containers?.forEach((container, index) => {
             this.containers.set(index, parse(container));
           });
-          object.spec.template.spec.initContainers?.forEach((container, index) => {
+          object.spec.template.spec?.initContainers?.forEach((container, index) => {
             this.initContainers.set(index, parse(container));
           });
         }
@@ -49,15 +49,15 @@ export class DeploymentVersionUpdate extends React.Component<Renderer.Component.
     const { object } = this.props;
 
     for (const [index, value] of this.containers) {
-      object.spec.template.spec.containers[index].image = value.image + ":" + value.tag;
+      object.spec.template.spec!.containers![index].image = value.image + ":" + value.tag;
     }
     for (const [index, value] of this.initContainers) {
-      object.spec.template.spec.initContainers[index].image = value.image + ":" + value.tag;
+      object.spec.template.spec!.initContainers![index].image = value.image + ":" + value.tag;
     }
 
     try {
       this.isSaving = true;
-      await Renderer.K8sApi.deploymentApi.update(
+      await Renderer.K8sApi.statefulSetApi.update(
         {
           namespace: object.getNs(),
           name: object.getName(),
@@ -73,12 +73,12 @@ export class DeploymentVersionUpdate extends React.Component<Renderer.Component.
   };
 
   render() {
-    const { object } = this.props;
     const containers = Array.from(this.containers.entries());
     const initContainers = Array.from(this.initContainers.entries());
 
     return (
-      <div className="DeploymentVersionUpdateDetail">
+      <div className="StatefulSetVersionUpdateDetail">
+        <style>{css}</style>
         {initContainers.length > 0 && (
           <>
             <Renderer.Component.DrawerTitle>{`InitContainer image${initContainers.length > 1 ? "s" : ""}`}</Renderer.Component.DrawerTitle>
